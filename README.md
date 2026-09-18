@@ -1,12 +1,15 @@
 # 📊 Global Data Jobs Analysis & Salary Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power_BI-Desktop_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![PDF Report](https://img.shields.io/badge/PDF_Report-View_Dashboard_PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](data_job_analysis.pdf)
 [![Dataset](https://img.shields.io/badge/Dataset-478.9K+_Job_Postings-blue?style=for-the-badge)](https://github.com/sreeshanthkprakash-stack/data-job-analysis)
 [![DAX](https://img.shields.io/badge/DAX-Calculated_Measures-orange?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 An interactive, multi-page business intelligence dashboard developed in **Power BI** to analyze over **478,000+ data job postings** globally throughout 2024. The project uncovers compensation benchmarks, job posting trends, work-from-home adoption, benefit availability, degree requirements, and portal distributions across diverse tech and data roles.
+
+📄 **[Click here to view / download the full PDF Report](data_job_analysis.pdf)**
 
 ---
 
@@ -41,6 +44,9 @@ An interactive, multi-page business intelligence dashboard developed in **Power 
 The Power BI report consists of two synchronized, interactive views with drill-through functionality:
 
 ### Page 1: Data Jobs Dashboard (Overview)
+
+![Data Jobs Dashboard Overview](assets/images/dashboard_page_1.png)
+
 A high-level command center displaying macro-level market trends, role rankings, and salary distributions:
 
 1. **Job Posting Trend in 2024 (Monthly Line Chart):**
@@ -55,6 +61,9 @@ A high-level command center displaying macro-level market trends, role rankings,
 ---
 
 ### Page 2: Job Title Drill-Through Analysis
+
+![Job Title Drill Through - Senior Data Scientist](assets/images/dashboard_page_2.png)
+
 A granular, role-specific drill-through page allowing deep-dive analysis on any individual position (e.g., *Senior Data Scientist*, *Data Engineer*, *Data Analyst*):
 
 1. **Salary Gauges:**
@@ -200,6 +209,11 @@ DIVIDE(
 ├── .gitignore                      # Git ignore rules for large raw files
 ├── README.md                       # Full documentation & project walkthrough
 ├── data_job_analysis.pbit         # Power BI Template (Pages, DAX & visual layouts)
+├── data_job_analysis.pdf          # Full exported PDF report
+├── assets/
+│   └── images/
+│       ├── dashboard_page_1.png   # Overview dashboard visual
+│       └── dashboard_page_2.png   # Drill-through dashboard visual
 └── job_postings_flat - Copy.zip    # Compressed dataset archive (478K+ job postings)
 ```
 
