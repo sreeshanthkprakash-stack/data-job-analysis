@@ -207,7 +207,7 @@ DIVIDE(
 
 ## 👤 Author & Acknowledgments
 
-* **Created by:** [Sreeshanth K](https://github.com/sreeshanthkprakash-stack)
+* **Created by:** [Sreeshanth K Prakash](https://github.com/sreeshanthkprakash-stack)
 * **Dataset & Context:** Global Tech & Data Job Postings dataset (Luke Barousse data ecosystem).
 * **Tools:** Microsoft Power BI, Power Query, DAX.
 
